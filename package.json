@@ -7,7 +7,7 @@
     "node": ">=10.15.3"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Grupp 5",
   "license": "MIT",
