@@ -5,6 +5,6 @@ app.get("/people", (req, res, next) => {
     res.json(["Tony","Lisa","Michael","Ginger","Food"]);
    });
 
-app.listen(3000, () => {
- console.log("Server running on port 3000");
-});
+const PORT = process.env.NODE_ENV == 'production' ? process.env.PORT : 3000;
+const BOOT = `Express server started and listening on port: ${PORT}`;
+app.listen(PORT, () => console.log(BOOT));
