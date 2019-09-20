@@ -60,7 +60,18 @@ app.get('/search/:query', (req, res) => {
     }
     res.status(404).send('{}')
 })
-  
+
+app.get('/media/:id', (req, res) => {
+    const { id } = req.params
+    const resource = data.find(function(obj) {
+      return obj.media_id == id
+    })
+    if (resource) {
+      res.send(resource)
+    }
+    res.status(404).send('{}')
+})
+
 app.get('/category/:category', (req, res) => {
     const { category } = req.params
     const objects = data.filter(function(obj) {
