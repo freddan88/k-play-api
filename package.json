@@ -1,0 +1,21 @@
+{
+  "name": "k-play-api",
+  "version": "1.0.0",
+  "description": "K-Play Mock Api",
+  "main": "app.js",
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Grupp 5",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
