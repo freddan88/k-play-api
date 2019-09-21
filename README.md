@@ -20,3 +20,8 @@ git add .
 git commit -am "make it better"
 git push heroku master
 ```
+
+Example Push to GitHub
+```
+git push origin master
+```
