@@ -2,17 +2,17 @@
 ---
 Hosted on heroku: https://k-play-api.herokuapp.com
 
-| REST API Endpoints: |                   |
-| ------------------- | ----------------- |
-| /                   | All data          |
-| /audio/             | Only Audio        |
-| /audio/:id          | Audio + id        |
-| /video/             | Only Video        |
-| /video/:id          | Video + id        |
-| /id/:id             | Data + id         |
-| /search/:query      | Search Taggs      |
-| /media/:id          | Search media_id   |
-| /category/:category | Filter categories |
+| REST API Endpoints: |                   | Examples:          |
+| ------------------- | ----------------- | ------------------ |
+| /                   | All data          | /                  |
+| /audio/             | Only Audio        | /audio             |
+| /audio/:id          | Audio + id        | /audio/99          |
+| /video/             | Only Video        | /video             |
+| /video/:id          | Video + id        | /video/129         |
+| /id/:id             | Data + id         | /id/128            |
+| /search/:query      | Search Taggs      | /search/Scenkonst  |
+| /media/:id          | Search media_id   | /media/Nmf2V55mlgw |
+| /category/:category | Filter categories | /category/musik    |
 
 Example: Heroku CLI / Heroku GIT
 ```
