@@ -5,6 +5,8 @@ const audio = require('./responses/audio')
 const video = require('./responses/video')
 const data = audio.concat(video)
 
+app.use(cors());
+
 app.get('/', (req, res) => {
     res.send(data)
 })
