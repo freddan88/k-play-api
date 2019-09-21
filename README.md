@@ -13,3 +13,10 @@ Hosted on heroku: https://k-play-api.herokuapp.com
 | /search/:query      | Search Taggs      |
 | /media/:id          | Search media_id   |
 | /category/:category | Filter categories |
+
+Example: Heroku CLI / Heroku GIT
+```
+git add .
+git commit -am "make it better"
+git push heroku master
+```
