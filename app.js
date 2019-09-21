@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const audio = require('./responses/audio-new')
+const audio = require('./responses/audio')
 const video = require('./responses/video')
 const data = audio.concat(video)
 
