@@ -155,7 +155,7 @@ const Audio = [
     short_description: 'Example Short description...',
     tags: ['podcast','learning','K-Play','Scenkonstbiennalen'],
     title: '#107 Hjälte för hur länge? – om inhopp på scenen med skådespelaren Niklas Hald (LIVE: 2019-05-16)',
-    short_title: 'Short example title...',
+    short_title: '#107 Hjälte för hur länge? - LIVE: 2019-05-16',
     collaborators: ['Stockholms Konstnärliga högskola','Scenkonstbiennalen'],
     cast: ['Niklas Hald'],
     date: '2019-06-03',
