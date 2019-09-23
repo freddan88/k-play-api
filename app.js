@@ -64,6 +64,17 @@ app.get('/search/:query', (req, res) => {
     res.status(404).send('{}')
 })
 
+app.get('/playlists/:playlist', (req, res) => {
+  const { playlist } = req.params
+  const objects = data.filter(function(obj) {
+    return obj.playlists.indexOf(playlist) >= 0
+  })
+  if (objects) {
+    res.send(objects)
+  }
+  res.status(404).send('{}')
+})
+
 app.get('/media/:id', (req, res) => {
     const { id } = req.params
     const resource = data.find(function(obj) {
