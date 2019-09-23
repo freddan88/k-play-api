@@ -94,9 +94,9 @@ app.get('/category/:category', (req, res) => {
     if (objects) {
       res.send(objects)
     }
-    res.status(404).send('{}')
+    res.status(404).send('{}') 
 })
 
-const PORT = process.env.NODE_ENV == 'production' ? process.env.PORT : 3000;
+const PORT = process.env.NODE_ENV == 'production' ? process.env.PORT : 2000;
 const BOOT = `Express server started and listening on port: ${PORT}`;
 app.listen(PORT, () => console.log(BOOT));
