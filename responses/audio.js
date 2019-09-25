@@ -255,7 +255,7 @@ const Audio = [
     short_description: 'SCENKONSTBIENNALEN 2019: SCENISKA MIRAKEL 2...',
     tags: ['podcast','learning','k-play','scenteknik','scenkonst','scenkonstbiennalen','figurteater','audio'],
     title: '#112 Sceniska mirakel 2 - vad är det där figurteater för något? (LIVE: 2019-05-17)',
-    short_title: '#112 Sceniska mirakel 2 - vad är det där figurteater för något?...',
+    short_title: '#112 Sceniska mirakel - Figurteater för något?...',
     collaborators: ['Unima – Sverige','Kulturakademin','FIGUR – nationellt figurteatercentrum','Scenkonstbiennalen'],
     cast: ['Erik Holmström','Jenny Bjärkstedt','Malin Morgan','Malin Halland','Lis Hellström Sveningson'],
     date: '2019-06-11',
