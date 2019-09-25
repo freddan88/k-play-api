@@ -97,6 +97,17 @@ app.get('/category/:category', (req, res) => {
     res.status(404).send('{}') 
 })
 
+app.get('/tags/:tag', (req, res) => {
+  const { tag } = req.params
+  const objects = data.filter(function(obj) {
+    return obj.tags.indexOf(tag) >= 0
+  })
+  if (objects) {
+    res.send(objects)
+  }
+  res.status(404).send('{}') 
+})
+
 const PORT = process.env.NODE_ENV == 'production' ? process.env.PORT : 2000;
 const BOOT = `Express server started and listening on port: ${PORT}`;
 app.listen(PORT, () => console.log(BOOT));
