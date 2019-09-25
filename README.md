@@ -14,6 +14,7 @@ Hosted on heroku: https://k-play-api.herokuapp.com
 | /media/:id           | Search media_id   | /media/Nmf2V55mlgw  |
 | /category/:category  | Filter categories | /category/musik     |
 | /playlists/:playlist | Filter playlists  | /playlists/Poddcast |
+| /tags/:tag           | Search for tags   | /tags/scenkonst     |
 
 Example: Heroku CLI / Heroku GIT
 ```
