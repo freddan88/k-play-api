@@ -1,6 +1,5 @@
 ## REST API ( Mock ) for K-Play
 ---
-Hosted on heroku: https://k-play-api.herokuapp.com
 
 | REST API Endpoints:  |                   | Examples:           |
 | -------------------- | ----------------- | ------------------- |
